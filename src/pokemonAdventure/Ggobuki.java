@@ -66,4 +66,4 @@ public class Ggobuki extends PokemonDTO {
 	
 	
 
-}
+} 
