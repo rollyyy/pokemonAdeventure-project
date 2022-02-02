@@ -11,10 +11,10 @@ public class Ggobuki extends PokemonDTO {
 	public void recharge() {
 		// TODO Auto-generated method stub
 		if(this.hp < 100) {
-			System.out.println("[system] : 꼬부기(이)가 물을 충전합니다. 꼬부기의 HP가 100% 충전되었습니다.");
+			System.out.println("[system] : 꼬부기(이)가 물을 충전합니다. 꼬부기의 HP가 100% 충전되었습니다. ");
 			this.hp = 100;
 		} else {
-			System.out.println("[system] : 꼬부기의 HP가 완충되어 있습니다. 공격을 진행해주세요.");
+			System.out.println("[system] : 꼬부기의 HP가 완충되어 있습니다. 공격을 진행해주세요. ");
 		}
 		
 		
@@ -67,3 +67,6 @@ public class Ggobuki extends PokemonDTO {
 	
 
 } 
+ 
+
+
